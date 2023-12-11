@@ -1,0 +1,30 @@
+
+
+/* ATTRIBUTE SELECTOR - select elements with certain attribute values*/
+
+h1[draggable]{
+    font-style: normal;
+    font-size: 40pt;
+}
+
+/* ELEMENT SELECTOR - apply to all elements with the tag selected*/
+
+h1{
+    color:rgb(224, 95, 117);
+}
+
+/* UNIVERSAL SELECTOR - select all regardless of CSS styling*/
+*{
+    font-style:italic
+}
+
+/* ID SELECTOR - for one unique element per file*/
+
+#bigidea{
+    color:rgb(224, 71, 166);
+}
+
+/* CLASS SELECTOR - group elements*/
+.custom-pink{
+    color:rgb(224, 95, 117);
+}
