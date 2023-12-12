@@ -10,12 +10,17 @@ h1[draggable]{
 /* ELEMENT SELECTOR - apply to all elements with the tag selected*/
 
 h1{
-    color:rgb(224, 95, 117);
+    color:black;
+}
+img{
+    position: relative;
+    background-position: center;
 }
 
 /* UNIVERSAL SELECTOR - select all regardless of CSS styling*/
 *{
-    font-style:italic
+    font-style:bold;
+    background-color:white;
 }
 
 /* ID SELECTOR - for one unique element per file*/
@@ -25,6 +30,6 @@ h1{
 }
 
 /* CLASS SELECTOR - group elements*/
-.custom-pink{
-    color:rgb(224, 95, 117);
+.headerimg{
+    max-width: 20px;
 }
