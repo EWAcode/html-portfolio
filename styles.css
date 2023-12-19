@@ -5,12 +5,14 @@
 h1[draggable]{
     font-style: normal;
     font-size: 40pt;
+    font-family: Montserrat;
 }
 
 /* ELEMENT SELECTOR - apply to all elements with the tag selected*/
 
 h1{
     color:black;
+ 
 }
 img{
     position: relative;
@@ -19,8 +21,8 @@ img{
 
 /* UNIVERSAL SELECTOR - select all regardless of CSS styling*/
 *{
-    font-style:bold;
-    background-color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;   
 }
 
 /* ID SELECTOR - for one unique element per file*/
