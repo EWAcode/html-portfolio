@@ -1,9 +1,10 @@
 
 *{
-    background: red;
+    background: whitesmoke;
 }
 img{
-    size: 200px;
+    height: 50pt;
+    width: 150pt;
 }
 h1{
     color:pink;
