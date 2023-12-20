@@ -21,6 +21,7 @@ img{
 *{
     font-style:bold;
     background-color:white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /* ID SELECTOR - for one unique element per file*/
