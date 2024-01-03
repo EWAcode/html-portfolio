@@ -8,6 +8,7 @@ h1[draggable]{
 }
 h1{
     color:rgb(233, 79, 187);
+    font-size: 36pt;
 }
 /* ELEMENT SELECTOR - apply to all elements with the tag selected*/
 div li{
