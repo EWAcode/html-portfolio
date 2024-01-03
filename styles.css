@@ -6,14 +6,13 @@ h1[draggable]{
     font-style: normal;
     font-size: 40pt;
 }
-
+h1{
+    color:rgb(233, 79, 187);
+}
 /* ELEMENT SELECTOR - apply to all elements with the tag selected*/
 div li{
     color: rgb(250, 33, 178);
     font-weight: bold;
-}
-h1{
-    color:black;
 }
 img{
     position: relative;
@@ -37,3 +36,10 @@ img{
 .headerimg{
     max-width: 20px;
 }
+
+/* chain selectors to pick specific elements with header and other attributes without spaces like h1#pink.class{ css code here}
+ choose styling with parent child like "selector > selector" and ancestor and descendant by selector selector"
+ combine combiners like p > li.class --> which looks for any li with a specific class under a p */
+ 
+
+ 
