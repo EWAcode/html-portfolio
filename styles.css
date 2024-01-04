@@ -7,13 +7,14 @@ h1[draggable]{
     font-size: 40pt;
 }
 h1{
-    color:rgb(233, 79, 187);
+    color: rgb(250, 33, 178);
     font-size: 36pt;
 }
 /* ELEMENT SELECTOR - apply to all elements with the tag selected*/
-div li{
+li{
     color: rgb(250, 33, 178);
     font-weight: bold;
+    
 }
 img{
     position: relative;
@@ -25,6 +26,7 @@ img{
     font-style:bold;
     background-color:white;
     font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
 }
 
 /* ID SELECTOR - for one unique element per file*/
@@ -43,4 +45,43 @@ img{
  combine combiners like p > li.class --> which looks for any li with a specific class under a p */
  
 
- 
+#red{
+    display: block;
+    background-color: red;
+
+ }
+#blue{
+    display: block;
+    color: white;
+    background-color: blue;
+
+ }
+#orange{
+    display: block;
+    background-color: orange;
+
+ }
+#green{
+    display: block;
+    background-color: green;
+
+ }
+#yellow{
+    display: block;
+    background-color: yellow;
+
+ }
+ .colorblock{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+ }
+
+a{
+    text-align: center;
+}
+ footer{
+    text-align: center;
+ }
