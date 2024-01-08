@@ -34,22 +34,82 @@
           background-color: aquamarine;
         }
       }
+      
+      footer{
+        text-align: center;
+      }
+      .flex-container{
+        display:flex;
+        border-radius: 10px;
+        border-style: dotted;
+        border-color: black;
+      }
+      .box1{
+        flex:0.2;
+        background: pink;
+      }
+      .box2{
+        background: whitesmoke;
+        border: 30px;
+        height: 400px;
+        flex: 1;
+      }
+      .box3{
+        flex: 0.5;
+        background: gray;
+      }
+      .grid-container{
+        display: grid;
+        grid-template-columns: 1 fr 1 fr;
+        grid-template-rows: 100px 200px 200px;
+        gap: 30px;
+        border-radius: 10px;
+        border-style: dotted;
+        border-color: black;
+      }
+      .firstcard{
+        grid-column: span 2;
+      }
+      .card{
+        background-color: pink;
+        grid-column: span 1;
+      }
+      .container{
+        border-radius: 10px;
+        border-style: dotted;
+        border-color: black;
+      }
     </style>
   </head>
 
   <body>
     <h1>SANDBOX Header 1</h1>
-    <h2>Header 2</h2>
+    <h2>Flexbox</h2>
 
-    <div class="openingmsg">
-      <p>this is a paragraph element in inline block</p>
-      <ul>
-        <li>unordered list item</li>
-      </ul>
+    <div class="flex-container">
+      <div class="box1">First Card</div>
+      <div class="box2">Second Card</div>
+      <div class="box3">Third Card</div>
     </div>
 
-    <p class="secondp">Second Paragraph Element</p>
 
-    <p class="thirdp">Third Paragraph Element</p>
+    <h2>Grid</h2>
+
+    <div class="grid-container">
+      <div class="firstcard" style="background-color: whitesmoke;">First Card</div>
+      <div class="card">Second Card</div>
+      <div class="card">Third Card</div>
+      <div class="card">Fourth Card</div>
+      <div class="card">Fifth Card</div>
+    </div>
+
+    <h2>Bootstrap</h2>
+
+    <div class="container">
+      <div class="openingmsg">Card</div>
+      <div class="secondp">Second Card</div>
+      <div class="thirdp">Third Card</div>
+    </div>
+    <footer>This is a footer</footer>
   </body>
 </html>
