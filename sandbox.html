@@ -35,9 +35,7 @@
         }
       }
       
-      footer{
-        text-align: center;
-      }
+      
       .flex-container{
         display:flex;
         flex-direction: row;
@@ -45,7 +43,7 @@
         border-style: solid;
         border-color: silver;
     
-        gap: 10px;
+        gap: 1rem;
       }
       .red{background-color: red;flex-basis: 100px;}
       .yellow{background-color: yellow;flex-basis: 100px;}
@@ -61,6 +59,7 @@
         border-radius: 5px;
         border-style: solid;
         border-color: silver;
+        gap: 2rem;
       
       }
       .red2{background-color: red;flex-basis: 20px;}
@@ -79,6 +78,7 @@
         border-radius: 10px;
         border-style: dotted;
         border-color: black;
+        
       }
       .firstcard{
         grid-column: span 2;
@@ -93,29 +93,30 @@
         border-color: black;
       }
 
-      .checkerboard{
-        display:grid;
-        grid-template-columns: 1 fr 1 fr 1 fr 1 fr 1 fr 1 fr 1 fr 1 fr;
-        grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
-        width: 800px;
+      .checker-board{
+       height: 800px;
+       width: 800px;
+       display: grid;
+       grid-template-columns: repeat(8, 1fr);
+       grid-template-rows: repeat(8, 1fr);
+       
       }
       .pink{
         height: 100px;
         width: 100px;
         background-color: pink;
-        grid-column: span 1;
+        
       }
       .whitesmoke{
-        height: 100px;
-        width: 100px;
-        background-color: whitesmoke;
-        grid-column: span 1;
+       height: 100px;
+       width: 100px;
+       background-color: whitesmoke;
       }
     </style>
   </head>
 
   <body>
-    <h1>SANDBOX Header 1</h1>
+    <h1>SANDBOX</h1>
     <h2>Flexbox</h2>
 
     <div class="flex-container">
@@ -162,7 +163,7 @@
 
     <h2>Checkers</h2>
 
-    <div class="checkerboard">
+    <div class="checker-board">
       <div class="pink"></div>
       <div class="whitesmoke"></div>
       <div class="pink"></div>
@@ -171,7 +172,6 @@
       <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
-      <div class="pink"></div>
       <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
@@ -180,7 +180,6 @@
       <div class="pink"></div>
       <div class="whitesmoke"></div>
       <div class="pink"></div>
-      <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
       <div class="pink"></div>
@@ -189,7 +188,6 @@
       <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
-      <div class="pink"></div>
       <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
@@ -198,7 +196,6 @@
       <div class="pink"></div>
       <div class="whitesmoke"></div>
       <div class="pink"></div>
-      <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
       <div class="pink"></div>
@@ -207,7 +204,6 @@
       <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
-      <div class="pink"></div>
       <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
@@ -216,7 +212,6 @@
       <div class="pink"></div>
       <div class="whitesmoke"></div>
       <div class="pink"></div>
-      <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
       <div class="pink"></div>
@@ -225,11 +220,17 @@
       <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
+      <div class="whitesmoke"></div>
       <div class="pink"></div>
       <div class="whitesmoke"></div>
+      <div class="pink"></div>
+      <div class="whitesmoke"></div>
+      <div class="pink"></div>
+      <div class="whitesmoke"></div>
+      <div class="pink"></div>
 
     </div>
 
-    <footer>This is a footer</footer>
+    
   </body>
 </html>
