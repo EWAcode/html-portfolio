@@ -72,21 +72,28 @@
 
       .grid-container{
         display: grid;
-        grid-template-columns: 1 fr 1 fr;
-        grid-template-rows: 100px 200px 200px;
+        grid-template-columns: repeat (4, 1fr);
+        grid-template-rows: 100px 100px 100px 100px);
         gap: 30px;
         border-radius: 10px;
         border-style: dotted;
         border-color: black;
-        
       }
+
       .firstcard{
-        grid-column: span 2;
+        grid-column: span 4;
       }
+
       .card{
         background-color: pink;
         grid-column: span 1;
       }
+      .testcard{
+        background-color: blueviolet;
+        grid-area: 2/4/4/-1;
+        
+      }
+
       .container{
         border-radius: 10px;
         border-style: dotted;
@@ -99,19 +106,20 @@
        display: grid;
        grid-template-columns: repeat(8, 1fr);
        grid-template-rows: repeat(8, 1fr);
-       
       }
+
       .pink{
         height: 100px;
         width: 100px;
         background-color: pink;
-        
       }
+
       .whitesmoke{
        height: 100px;
        width: 100px;
        background-color: whitesmoke;
       }
+
     </style>
   </head>
 
@@ -151,6 +159,11 @@
       <div class="card">Third Card</div>
       <div class="card">Fourth Card</div>
       <div class="card">Fifth Card</div>
+      <div class="card">Sixth Card</div>
+      <div class="card">Seventh Card</div>
+      <div class="card">Eigth Card</div>
+      <div class="card">Ninth Card</div>
+      <div class="testcard">Test Card</div>
     </div>
 
     <h2>Bootstrap</h2>
